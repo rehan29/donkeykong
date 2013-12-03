@@ -96,22 +96,28 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* center form */
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* var styles */
+.container span{
+    font-size: 12px;
+    color: red; 
+    display: block;
+    margin-bottom: 20px;
+}
+.container form input, form label, form textarea, form select {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.container form label {
+    margin-bottom: 0;
+}
 
 /* ==========================================================================
    Helper classes
